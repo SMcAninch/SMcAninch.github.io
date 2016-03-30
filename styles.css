@@ -30,7 +30,8 @@ body{
 }
 #links{
     float: left;
-    padding-top: 5rem;
+    position: fixed;
+    margin-top: 5rem;
     width: 0rem;
     background: -moz-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
     background: -ms-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
