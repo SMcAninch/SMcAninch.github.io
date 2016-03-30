@@ -142,10 +142,10 @@ function removeArrayMember(array, index){
 //pure side effect: audio source chosen for player
 function chooseMp3OrOgg(file_name){
     if( supportsMp3() ){
-        audioPlayer.src = "../music/" + file_name + ".mp3";        
+        audioPlayer.src = "music/" + file_name + ".mp3";        
     }
     else if( supportsOgg() ){
-        audioPlayer.src = "../music/" + file_name + ".ogg";            
+        audioPlayer.src = "music/" + file_name + ".ogg";            
     }
     else{
         audioPlayer.src = "";
