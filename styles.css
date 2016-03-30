@@ -16,8 +16,14 @@
 #photo{
     background: url(favicon.png) no-repeat center;
     background-size: contain;
-    width: 3rem;
+    width: 4rem;
     padding-bottom: 3rem;
-    border-radius: 50%;
+    border-radius: 0%;
     float: right;
+}
+body{
+    background: -moz-linear-gradient(left top,hsla(349, 70%, 6%, 0.97),hsla(247, 89%, 21%, .97));
+    background: -ms-linear-gradient(left top,hsla(349, 70%, 6%, 0.97),hsla(247, 89%, 21%, .97));
+	background: -webkit-linear-gradient(left top,hsla(349, 70%, 6%, 0.97),hsla(247, 89%, 21%, .97));
+	background: linear-gradient(left top,hsla(349, 70%, 6%, 0.97),hsla(247, 89%, 21%, .97));
 }
