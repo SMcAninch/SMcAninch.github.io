@@ -146,9 +146,6 @@ function chooseMp3OrOgg(file_name){
     if( supportsMp3() ){
         audioPlayer.src = base + "music/" + file_name + ".mp3";        
     }
-    else if(supportsMp3()){
-        audioPlayer.src = external;
-    }
     else if( supportsOgg() ){
         audioPlayer.src = base + "music/" + file_name + ".ogg";            
     }
