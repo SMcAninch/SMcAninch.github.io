@@ -9,7 +9,20 @@ body{
     font-size: 4rem;
     
 }
+#links{
+    color: white;
+    float: left;
+    position: fixed;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 3rem;
+    border-radius: 10%;
+    background: -moz-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -ms-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: -webkit-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 
+}
 #content{
     width: 95%;
     padding: 2%;
