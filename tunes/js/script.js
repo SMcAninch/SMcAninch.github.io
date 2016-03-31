@@ -1,4 +1,5 @@
 var base = "http://smcaninch.github.io/";
+var external = "https://play.spotify.com/track/16mkFfAvkSrdKG6wxhYT1i";
 var shuffleBtn = O("shuffleBtn");
 var songSelection = O("songSelection");
 var audioPlayer = O("audioPlayer");
@@ -144,6 +145,9 @@ function removeArrayMember(array, index){
 function chooseMp3OrOgg(file_name){
     if( supportsMp3() ){
         audioPlayer.src = base + "music/" + file_name + ".mp3";        
+    }
+    else if(supportsMp3()){
+        audioPlayer.src = external;
     }
     else if( supportsOgg() ){
         audioPlayer.src = base + "music/" + file_name + ".ogg";            
