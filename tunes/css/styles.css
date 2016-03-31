@@ -14,9 +14,9 @@ body{
     float: left;
     position: fixed;
     font-size: 1rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    width: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 4rem;
     border-radius: 10%;
     background: -moz-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
     background: -ms-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
