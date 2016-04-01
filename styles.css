@@ -38,12 +38,24 @@
     
 }
 #text{
-    background: url(OldPaper.png) center;
-    background-size: contain;
-    width: 4rem;
-    padding-bottom: 3rem;
+    background: -moz-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -ms-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: -webkit-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    position: fixed;
+    height: 4rem;
+    top: 7rem;
+    left: 0;
+    right: 0;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 0rem;
     border-radius: 0%;
-    float: inherit;
+    font-size: .75rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: lightblue;
+    
 }
 #photo{
     background: url(favicon.png) no-repeat center;
