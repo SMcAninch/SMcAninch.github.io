@@ -1,4 +1,4 @@
-var base = "http://smcaninch.github.io/";
+var base = "https://smcaninch.github.io/";
 var external = "https://play.spotify.com/track/16mkFfAvkSrdKG6wxhYT1i";
 var shuffleBtn = O("shuffleBtn");
 var songSelection = O("songSelection");
