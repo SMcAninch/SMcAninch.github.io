@@ -5,8 +5,106 @@
     },
     "Dark": {
         "title": "Fragrence of Dark Coffee",
-        "Artist":"Capcom"
+        "artist":"Capcom"
+    },
+    "Again": {
+        
+        "title":"Again",
+        "artist":"Yui"
+    },
+     "Aluminia": {
+        
+        "title":"Aluminia",
+        "artist":"Nightmare"
+    },
+     "Apollo": {
+        
+        "title":"Apollo Justice's Theam",
+        "artist":"Capcom"
+    },
+     "California": {
+        
+        "title":"Dani California",
+        "artist":"Red Hot Chili Peppers"
+    },
+     "Drinking": {
+        
+        "title":"Another Irish Drinking Song",
+        "artist":"Da Vinci's Notebook"
+    },
+     "Fairy Tail Battle Music": {
+        
+        "title":"Fairy Tail Battle Music",
+        "artist":"Fairy Tail"
+    },
+     "Fire": {
+        
+        "title":"We Didn't Start the Fire",
+        "artist":"Billy Joel"
+    },
+     "Guiles": {
+        
+        "title":"Guile's Combat Music",
+        "artist":"Capcom"
+    },
+     "Hallelujah": {
+        
+        "title":"Halleluja",
+        "artist":"Unknown"
+    },
+    "Histery":{
+        "title":"Histery",
+        "artist":"Nano"
+        
+    },
+     "Kombat":{
+        "title":"Mortal Kombat Theam",
+        "artist":"Capcom"
+        
+    },
+     "magenta":{
+        "title":"Magenta",
+        "artist":"Nano"
+        
+    },
+     "montage":{
+        "title":"Montage",
+        "artist":"South Park"
+        
+    },
+     "Pokemon":{
+        "title":"Pokemon Lance Theam",
+        "artist":"Nintendo"
+        
+    },
+     "Rocks":{
+        "title":"Rocks",
+        "artist":"Hound Dogs"
+        
+    },
+     "Sleepytime":{
+        "title":"Sleepytime Junction",
+        "artist":"Gamegrumps"
+        
+    },
+     "Turnabout":{
+        "title":"Turnabout",
+        "artist":"Capcom"
+        
+    },
+     "Warriors":{
+        "title":"Warriors",
+        "artist":"Freedom Cry"
+        
+    },
+     "Win":{
+        "title":"Live to Win",
+        "artist":"Paul Stanley"
+        
+    },
+     "Zelda":{
+        "title":"Legend of Zelda Theam",
+        "artist":"Nintendo"
+        
     }
-    
-    
 }
