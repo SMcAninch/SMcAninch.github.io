@@ -87,10 +87,10 @@
     float: right;
 }
 body{
-    background: -moz-radial-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
-    background: -ms-radial-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
-	background: -webkit-radial-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
-	background: radial-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -moz-radial-gradient(hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -ms-radial-gradient(hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: -webkit-radial-gradient(hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: radial-gradient(hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 }
 #links{
     color: white;
