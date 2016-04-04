@@ -1,6 +1,6 @@
 #bannerTop{
     position: fixed;
-    height: 4rem;
+    height: 2rem;
     top: 0;
     left: 0;
     right: 0;
@@ -64,8 +64,8 @@
 	background: -webkit-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(9, 89%, 22%,.70),hsla(197, 0%, 1%, .97));
 	background: linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(9, 89%, 22%,.70),hsla(197, 0%, 1%, .97));
     position: fixed;
-    height: 6rem;
-    top: 7.2rem;
+    height: 10rem;
+    top: 6rem;
     left: 0;
     right: 0;
     margin-left: 10rem;
