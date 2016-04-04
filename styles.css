@@ -106,3 +106,7 @@ body{
 	background: linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 
 }
+#player{
+    display:none;
+    
+}
