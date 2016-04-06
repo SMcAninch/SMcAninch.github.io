@@ -28,9 +28,12 @@ var lists = {};
 var namesArray = [];
 var songsArray = [];
 var currentPlayListName = "";
+var currentUrl = "";
 
 //---event handlers----
 
+
+playlist.onchange = playSong;
 window.onload = initialize;
 btn.onclick = getNewList;
 chooser.onchange = changePlayList;
@@ -134,7 +137,7 @@ function changePlayList(e){
     var list = chooser.options[chooser.selectedIndex].innerHTML;
     currentPlayListName = list;
     songsArray = propNames(lists[list]);
-    
+    currentUrl = "https://" + list + ".github.io" + "/music/";
     playlist.innerHTML = "";
     var header = document.createElement("option");
     header.innerHTML = "Choose a Song";
@@ -151,3 +154,10 @@ function sendListToServer(object){
     var objectString = JSON.stringify(object);
 }
 
+function playSong(){
+    var i = playlist.selectedIndex;
+    i--;
+    var url = currentUrl+songsArray[i]+ ".mp3";
+    
+    document.location.assign(url);
+}
