@@ -108,8 +108,12 @@ var addListsFromServer = function addListsFromServer() {
         addPlaylistNamesToBox(); //the slippery slope to callback hell
     };
 };
-var storeListsToBrowser = function storeListsToBrowser() {
-    
+function storeListsToBrowser() {
+    if(window.localStorage !== undefined){
+        //alert("Local Storage supported")
+        window.localStorage("lists", lists);
+        alert(window.localStorage.getItem("Lists"));
+    }
 };
 //----------
 function configureResizing() {
