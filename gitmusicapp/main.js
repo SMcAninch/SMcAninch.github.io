@@ -34,7 +34,7 @@ function id(string) {
 }
 var content = id("content");
 var gitname = id("gitname");
-var btn = id("btn");
+var friendButton = id("friendButton");
 var chooser = id("chooser");
 var playlist = id("playlist");
 var audioPlayer = id("audioPlayer");
@@ -58,7 +58,7 @@ var menuOpen = false;
 
 window.onload = initialize;
 playlist.onchange = playSong;
-btn.onclick = getNewList;
+friendButton.onclick = getNewList;
 menuButton.onclick = toggleAndFlash;
 X.onclick = toggleAndFlash;
 id("appTitle").onclick = toggleAndFlash;
