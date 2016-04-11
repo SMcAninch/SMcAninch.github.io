@@ -110,8 +110,9 @@ var addListsFromServer = function addListsFromServer() {
 };
 function storeListsToBrowser() {
     if(window.localStorage !== undefined){
+        var listString = JSON.stringify(lists);
         //alert("Local Storage supported")
-        window.localStorage("lists", lists);
+        window.localStorage.setItem("lists", lists);
         alert(window.localStorage.getItem("Lists"));
     }
 };
