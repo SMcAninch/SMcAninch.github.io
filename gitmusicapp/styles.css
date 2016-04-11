@@ -92,7 +92,7 @@ body{
     margin: 0.2rem auto;
     border-radius: 0.5rem;
     padding: 0.2rem;
-    background: linear-gradient(60deg, white, hsl(-30, 50%, 50%)) no-repeat;
+    background: linear-gradient(60deg, hsla(224, 95%, 26%,.70),white,hsla(224, 95%, 26%,.70)) no-repeat;
     background-size: cover;
     box-shadow: inset 1px 1px 1px black;
 }
