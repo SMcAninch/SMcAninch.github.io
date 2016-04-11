@@ -75,6 +75,15 @@ body{
     border-radius: 8px;
     box-shadow: 1px 1px 1px black;
 }
+#gitFile{
+    width: 95%;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px black;
+    
+}
 #X{
     float: right;
     padding-right: 2%;
@@ -120,8 +129,4 @@ body{
 #currentlyPlaying{
     padding-top: 0.5rem;
     font-size: 1.2rem;
-}
-table{
-    alignment-baseline: c
-    
 }
