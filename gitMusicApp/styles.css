@@ -76,7 +76,7 @@ body{
 }
 #menu{
     opacity: 0;
-    color: white;
+    color: black;
     visibility: hidden;
     background: lightgray;
     transition: opacity 1s ease, visibility 1s ease;
