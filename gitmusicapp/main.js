@@ -7,7 +7,7 @@
         </div>
         <h3 id="appTitle">Git Y'r Music!</h3>
            &nbsp;GitHub Friend&rAarr;<input id="gitname" type="text" class="roundPink">
-            <input type="button" id="btn" value="Get Friend's Playlist" class="roundPink">
+            <input type="button" id="friendButton" value="Get Friend's Playlist" class="roundPink">
             <br/><br/>
           &nbsp;Current Playlist&rAarr;
         <select id="chooser" class="roundPink"><div id="shuffleIcon">testing</div>
@@ -42,6 +42,8 @@ var currentlyPlaying = id("currentlyPlaying");
 var menuButton = id("menuButton");
 var menu = id("menu");
 var X = id("X");
+var appTitle = id("appTitle");
+
 var propNames = Object.keys;
 var playlistHeader = "Choose a Song";
 var ajax = new XMLHttpRequest();
@@ -61,9 +63,9 @@ playlist.onchange = playSong;
 friendButton.onclick = getNewList;
 menuButton.onclick = toggleAndFlash;
 X.onclick = toggleAndFlash;
-id("appTitle").onclick = toggleAndFlash;
+appTitle.onclick = toggleAndFlash;
 gitname.onkeyup = getNewList;
-gitname.onclick = clearInput;
+gitname.onclick =clearInput;
 chooser.onchange = changePlayList;
 
 //====| Under The Hood |====
@@ -76,29 +78,33 @@ function initialize() {
     // 3. Further augment our lists object with browser's copy
     addListsFromBrowser();
     // 4. Store lists object on the browser
-    storeListsToBrowser();
+    //storeListsToBrowser();
     configureResizing();
-    
+
 } //===| END of initialize() |=====
+
 function toggleAndFlash(e){
     toggleMenu(e);
-    flashObjectColor(this, "white", 0.25);
-    
+    flashObjectColor(menuButton, "white", 0.25);
 }
+
 function clearInput(e){
     e.target.value = "";
-    
 }
-function addListsFromBrowser() {
-    var serverList = window.localStorage.getItem("lists");
-    var userLists = JSON.parse(serverList);
-    for(var list in userLists){
-        if (!lists[list]){
-            lists[list] = userLists[list];
-            
+
+function addListsFromBrowser(){
+    if(window.localStorage){
+        if(window.localStorage.getItem("lists")){
+            var serverList = window.localStorage.getItem("lists");
+            var userLists = JSON.parse(serverList);
+            for (var list in userLists) {
+                if (!lists[list]) {
+                    lists[list] = userLists[list];
+                }
+            }
         }
     }
-};
+}
 //----------
 function addListsFromServer() {
     var listGetter = new XMLHttpRequest();
@@ -115,16 +121,16 @@ function addListsFromServer() {
             }
         }
         addPlaylistNamesToBox(); //the slippery slope to callback hell
+        storeListsToBrowser();
     };
 };
+
 function storeListsToBrowser() {
     if(window.localStorage !== undefined){
         var listString = JSON.stringify(lists);
-        //alert("Local Storage supported")
-        window.localStorage.setItem("lists", lists);
-        alert(window.localStorage.getItem("Lists"));
+        window.localStorage.setItem("lists", listString);
     }
-};
+}
 //----------
 function configureResizing() {
     resizeAndCenter();
@@ -298,7 +304,7 @@ function sortProperties(object){
 }
 //---------
 function sortedListByArtist(object){
-    var artist, title, joiner = "```";//tripple backtick unlikely to conflict 
+    var artist, title, joiner = "```";//tripple backtick unlikely to conflict
 	//first gather the song filenames (keys of the list object)
 	var recordNames = Object.keys(object);
 	//prepare for a list of primary keys: artist```title
@@ -333,7 +339,7 @@ function sortedListByArtist(object){
 					sortedObject[aSong] = object[aSong];
 				}
 			}
-		}	
+		}
 	}
 	//4.) return the sorted object.
 	return sortedObject;
