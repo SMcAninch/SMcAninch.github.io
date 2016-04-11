@@ -89,9 +89,18 @@ function clearInput(e){
     e.target.value = "";
     
 }
-var addListsFromBrowser = function addListsFromBrowser() {};
+function addListsFromBrowser() {
+    var serverList = window.localStorage.getItem("lists");
+    var userLists = JSON.parse(serverList);
+    for(var list in userLists){
+        if (!lists[list]){
+            lists[list] = userLists[list];
+            
+        }
+    }
+};
 //----------
-var addListsFromServer = function addListsFromServer() {
+function addListsFromServer() {
     var listGetter = new XMLHttpRequest();
     listGetter.open("GET", "lists.json");
     listGetter.send();
@@ -140,7 +149,7 @@ function configureResizing() {
     //-------------
 }
 //----------
-var addPlaylistNamesToBox = function addPlaylistNamesToBox() {
+function addPlaylistNamesToBox() {
     for (var userName in lists) {
         addNameToBox(userName);
         /**
