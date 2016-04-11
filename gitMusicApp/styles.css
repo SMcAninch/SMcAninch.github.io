@@ -66,10 +66,7 @@ body{
 }
 #content{
     box-shadow: 3px 3px 10px black;
-    background: -moz-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
-    background: -ms-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
-	background: -webkit-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
-	background: linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
+    background: white
     color: black;
     text-shadow: 0 1px 0 hsl(165,50%,70%);
     vertical-align: baseline;
