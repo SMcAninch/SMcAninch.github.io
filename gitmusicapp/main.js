@@ -63,9 +63,7 @@ menuButton.onclick = toggleAndFlash;
 X.onclick = toggleAndFlash;
 id("appTitle").onclick = toggleAndFlash;
 gitname.onkeyup = getNewList;
-gitname.onclick = function () {
-    this.value = "";
-};
+gitname.onclick = clearInput;
 chooser.onchange = changePlayList;
 
 //====| Under The Hood |====
@@ -82,9 +80,13 @@ function initialize() {
     configureResizing();
     
 } //===| END of initialize() |=====
-function toggleAndFlash(){
+function toggleAndFlash(e){
     toggleMenu(e);
     flashObjectColor(this, "white", 0.25);
+    
+}
+function clearInput(e){
+    e.target.value = "";
     
 }
 var addListsFromBrowser = function addListsFromBrowser() {};
