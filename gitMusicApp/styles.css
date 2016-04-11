@@ -21,6 +21,7 @@ body{
     overflow: hidden;
 }
 #mobileHolder{
+    color:white;
     position: fixed;
     overflow: hidden;
     top: 0;
@@ -33,6 +34,7 @@ body{
     margin: auto;
 }
 .roundPink{
+    color:white;
       background: -moz-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
     background: -ms-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
 	background: -webkit-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
@@ -50,6 +52,7 @@ body{
 
 }
 .portal{
+    color:white;
     position: absolute;
     width: 95%;
     top: 1%;
@@ -67,7 +70,7 @@ body{
     background: -ms-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
 	background: -webkit-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
 	background: linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
-    color: #1d1d1d;
+    color: white;
     text-shadow: 0 1px 0 hsl(165,50%,70%);
     vertical-align: baseline;
 }
@@ -80,6 +83,7 @@ body{
     min-height: 12rem;    
 }
 #gitFriend{
+    color:white;
     width: 95%;
     text-align: center;
     margin: 5rem auto;
@@ -113,6 +117,7 @@ body{
     box-shadow: inset 1px 1px 1px black;
 }
 #gitname{
+    color:white;
     width: 25%;
 }
 #menuButton{
