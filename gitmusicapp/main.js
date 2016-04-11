@@ -114,7 +114,9 @@ var addListsFromServer = function addListsFromServer() {
         addPlaylistNamesToBox(); //the slippery slope to callback hell
     };
 };
-var storeListsToBrowser = function storeListsToBrowser() {};
+var storeListsToBrowser = function storeListsToBrowser() {
+    
+};
 //----------
 function configureResizing() {
     resizeAndCenter();
