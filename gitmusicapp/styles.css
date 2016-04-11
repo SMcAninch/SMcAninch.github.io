@@ -11,7 +11,7 @@ body{
     width: 100%;
     height: 100%;
     font-family: sans-serif;
-    background: linear-gradient(60deg, white, hsl(-30, 50%, 50%)) no-repeat;
+    background: linear-gradient(60deg, hsla(280, 95%, 19%, 0.97),white,hsla(280, 95%, 19%, 0.97)) no-repeat;
     background-size: cover;
     overflow: hidden;
 }
