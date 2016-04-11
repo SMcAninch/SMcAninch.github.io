@@ -67,15 +67,7 @@ body{
     transition: opacity 1s ease, visibility 1s ease;
     min-height: 12rem;    
 }
-#gitFriend{
-    width: 95%;
-    text-align: center;
-    margin: 1rem auto;
-    padding: 1%;
-    border-radius: 8px;
-    box-shadow: 1px 1px 1px black;
-}
-#gitFile{
+.gitMenu{
     width: 95%;
     text-align: center;
     margin: 1rem auto;
