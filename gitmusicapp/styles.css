@@ -63,7 +63,7 @@ body{
 #menu{
     opacity: 0;
     visibility: hidden;
-    background: linear-gradient(-60deg, hsla(224, 95%, 26%,.70), white,hsla(224, 95%, 26%,.70));
+    background: linear-gradient(-60deg, hsla(224, 95%, 26%,1), white,hsla(224, 95%, 26%,1));
     transition: opacity 1s ease, visibility 1s ease;
     min-height: 12rem;    
 }
