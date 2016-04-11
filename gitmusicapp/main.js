@@ -58,22 +58,10 @@ var menuOpen = false;
 
 window.onload = initialize;
 playlist.onchange = playSong;
-btn.onclick = function (e) {
-    flashObjectColor(this, "white", 0.25);
-    getNewList(e);
-};
-menuButton.onclick = function (e) {
-    toggleMenu(e);
-    flashObjectColor(this, "white", 0.25);
-};
-X.onclick = function (e) {
-    toggleMenu(e);
-    flashObjectColor(this, "white", 0.25);
-};
-id("appTitle").onclick = function (e) {
-    toggleMenu(e);
-    flashObjectColor(menuButton, "white", 0.25);
-};
+btn.onclick = getNewList;
+menuButton.onclick = toggleAndFlash;
+X.onclick = toggleAndFlash;
+id("appTitle").onclick = toggleAndFlash;
 gitname.onkeyup = getNewList;
 gitname.onclick = function () {
     this.value = "";
@@ -94,7 +82,11 @@ function initialize() {
     configureResizing();
     
 } //===| END of initialize() |=====
-
+function toggleAndFlash(){
+    toggleMenu(e);
+    flashObjectColor(this, "white", 0.25);
+    
+}
 var addListsFromBrowser = function addListsFromBrowser() {};
 //----------
 var addListsFromServer = function addListsFromServer() {
