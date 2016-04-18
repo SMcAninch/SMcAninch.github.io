@@ -119,6 +119,11 @@ menu.onclick = function(e){
 
 //====| Under The Hood |====
 
+function playNextSong(){
+    
+    
+}
+
 function uploadSong(){
     try{
         var file = this.files[0];
