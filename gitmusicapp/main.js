@@ -94,6 +94,7 @@ audioPlayer.onended = function(e){
         playSong();
     }
 };
+nextSong.onclick = playNextSong;
 //---| menu actions |------
 
 gitName.onkeyup = getNewList;
