@@ -1,26 +1,57 @@
+<!-----------------------------------------------------------
+/**
+// Author: Abbas Abdulmalik
+// Creation Date: Feb 9, 2015
+// Revised: Feb 28, 2015
+// Note: choose to randomly play mp3 files
+*/
+------------------------------------------------------------->
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Sean McAninch</title>
-        <link rel="icon" href="favicon.png">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <button id="links"><a href="https://smcaninch.github.io/tunes/">Tunes</a></button>
-        <p>
-            <div class="banner" id="ban">
-                <div id="tital">News</div>
-            </div>
-            
-        </p>
-            <div id="text">
-            4/6/16: Raven my wonderful sister, I want you to know that I am proud to have you as a friend.
-            You're a blessing in my heart, and a source of joy each day. You will always
-            be able to talk to me, and I will always be here for you.
-            </div>
-            
-    <!--NO HTML BEYOND THIS POINT -->    
-    <script src="main.js"></script>    
-    </body>
+<head>
+    <title>Raven's Sleepytime</title>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1,
+        minimum-scale=1,
+        maximum-scale=1,
+        user-scalable=no"
+    > 
+    <link rel="stylesheet" href="css/normalize.css">    
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/OSC.js"></script> 
+    <!--<script src="js/shuffle.js"></script>-->     
+</head>
+<body>
+    
+    <div id="content">
+        <center><span id="filePlaying"> . . . </span></center>
+        <br>
+        <audio id="audioPlayer" controls autoplay ></audio>
+        <br>
+        <br>
+        <div id="shuffleBtn"></div><div id="nextSong">Next Song</div>
+        <br>
+        <br>
+         <select id="songSelection">
+              <option id="topChoice"><center>&dArr; CHOOSE A SONG &dArr;</center></option>         
+              <option value="Aura">Aura</option>
+              <option value="Black">Black</option>
+              <option value="Canon">Canon</option>
+              <option value="Compass">Compass</option>
+              <option value="Diary">Diary</option>
+              <option value="Eyes">Eyes</option>  
+              <option value="Hidden">Hidden</option>
+              <option value="Honor">Honor</option>              
+              <option value="Vincent">Vincent</option>
+              <option value="Dark">Dark</option>  
+              <option value="Box">Box</option>
+              <option value="Apollo">Apollo</option>
+        </select>
+    </div>
+    <button id="links"><a href="http://smcaninch.github.io">Go Back</a></button>
+    <script src="js/script.js"></script>
+</body>
 </html>
