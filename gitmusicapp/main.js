@@ -205,7 +205,7 @@ function turnShuffleOff(){
     shuffleBox.style.boxShadow = "1px 1px 1px black";
     shuffleState.innerHTML = "off";
     shuffleState.style.textShadow = "0 1px 0 hsl(277,50%,70%)";
-    shuffleIcon.style.textShadow = "0 1px 0 hsl(277,50%,70%)";
+    shuffleIcon.style.textShadow = "0 1px 0 hsl(165,50%,70%)";
     shuffleState.style.color = "black";
     shuffleIcon.style.color = "black";
     clearInterval(shuffleTimerId);
