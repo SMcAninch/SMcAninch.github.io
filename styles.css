@@ -106,3 +106,59 @@ body{
 	background: linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 
 }
+#links{
+    color: white;
+    float: left;
+    position: absolute;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    width: 3rem;
+    border-radius: 10%;
+    background: -moz-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -ms-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: -webkit-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+
+}
+#links2{
+    color: white;
+    float: left;
+    position: absolute;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    width: 3rem;
+    border-radius: 10%;
+    background: -moz-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -ms-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: -webkit-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+
+}
+#links3{
+    color: white;
+    float: left;
+    position: absolute;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    width: 3rem;
+    border-radius: 10%;
+    background: -moz-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -ms-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: -webkit-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+
+}
+#links4{
+    color: white;
+    float: left;
+    position: absolute;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    width: 3rem;
+    border-radius: 10%;
+    background: -moz-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -ms-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: -webkit-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+
+}
