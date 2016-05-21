@@ -266,7 +266,7 @@ function setMainColor(){
         content.style.background = pre +
         "linear-gradient(-60deg, hsl(" +
             mainColorAngle +
-            ", 50%, 40%), white)"
+            ", 50%, 40%), black)"
         ;
     });
     if(window.localStorage){
@@ -275,7 +275,7 @@ function setMainColor(){
 
 }
 function setBackgroundColor(){
-    backgroundColorAngle = (mainColorAngle - 180);
+    backgroundColorAngle = (black);
 
     prefix.forEach(function(m){
         document.body.style.background = m +
