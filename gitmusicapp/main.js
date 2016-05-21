@@ -279,13 +279,13 @@ function setBackgroundColor(){
 
     prefix.forEach(function(m){
         document.body.style.background = m +
-            "linear-gradient(60deg, white, hsl(" +
+            "linear-gradient(60deg, black, hsl(" +
             backgroundColorAngle +
             ", 50%, 50%)) no-repeat"
         ;
         document.body.style.backgroundSize = "cover";
         appTitle.style.background = m +
-            "linear-gradient(60deg, white, hsl("+
+            "linear-gradient(60deg, black, hsl("+
             backgroundColorAngle +
             ", 50%, 50%)) no-repeat"
         ;
