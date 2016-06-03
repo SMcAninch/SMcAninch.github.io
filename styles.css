@@ -93,8 +93,12 @@ body{
 	background: radial-gradient(circle,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 }
 #side{
-    float: left;
-    margin-top: 2rem;
+    float: left; 
+    width: 4rem;
+    left: 0rem;
+    right: 20rem;
+    bottom: 2rem;
+    top: 2rem;
     background: -moz-radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
     background: -ms-radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
 	background: -webkit-radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
