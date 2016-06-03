@@ -1,0 +1,74 @@
+<!-----------------------------------------------------------
+/**
+// Author: Abbas Abdulmalik
+// Creation Date: Feb 9, 2015
+// Revised: Feb 28, 2015
+// Note: choose to randomly play mp3 files
+*/
+------------------------------------------------------------->
+<!doctype html>
+<html>
+<head>
+    <title>Raven's Sleepytime</title>
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1,
+        minimum-scale=1,
+        maximum-scale=1,
+        user-scalable=no"
+    > 
+    <link rel="stylesheet" href="css/normalize.css">    
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/OSC.js"></script> 
+    <!--<script src="js/shuffle.js"></script>-->     
+</head>
+<body>
+    
+    <div id="content">
+        <center><span id="filePlaying"> . . . </span></center>
+        <br>
+        <audio id="audioPlayer" controls autoplay ></audio>
+        <br>
+        <br>
+        <div id="shuffleBtn"></div><div id="nextSong">Next Song</div>
+        <br>
+        <br>
+         <select id="songSelection">
+              <option id="topChoice"><center>&dArr; CHOOSE A SONG &dArr;</center></option>         
+              <option value="Aura">Aura</option>
+              <option value="Black">Black</option>
+              <option value="Canon">Canon</option>
+              <option value="Compass">Compass</option>
+              <option value="Diary">Diary</option>
+              <option value="Eyes">Eyes</option>  
+              <option value="Hidden">Hidden</option>
+              <option value="Honor">Honor</option>              
+              <option value="Vincent">Vincent</option>
+              <option value="Dark">Dark</option>  
+              <option value="Box">Box</option>
+              <option value="Apollo">Apollo</option>
+              <option value="Aluminia">Death</option>
+              <option value="Again">Again</option>
+              <option value="Drinking">Drinking</option>
+              <option value="Fairy Tail Battle Music">Fairy</option>
+              <option value="Fire">Fire</option>
+              <option value="Guiles">Mortal</option>  
+              <option value="Histery">Histery</option>
+              <option value="Kombat">kombat</option>              
+              <option value="megenta">megenta</option>
+              <option value="montage">montage</option>  
+              <option value="Pokemon">Pokemon</option>
+              <option value="Rocks">Rocks</option>
+              <option value="Sleepytime">Boom</option>
+              <option value="Tokyo">Tokyo</option>
+              <option value="Warriors">Warriors</option>
+              <option value="Win">Win</option>
+              <option value="Zelda">Zelda</option>
+        </select>
+    </div>
+    <button id="links"><a href="http://smcaninch.github.io">Go Back</a></button>
+    <script src="js/script.js"></script>
+</body>
+</html>
