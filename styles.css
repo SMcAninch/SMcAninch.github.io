@@ -93,11 +93,19 @@ body{
 	background: radial-gradient(circle,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 }
 #side{
-    position: fixed
-    float: left;
-    left: 10rem;
-    bottom: 2rem;
-    top: 2rem;
+    position: fixed;
+    height: 2rem;
+    width: 4rems;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: 80%;
+    padding: 0rem;
+    border-radius: 3%;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
     background: -moz-radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
     background: -ms-radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
 	background: -webkit-radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
