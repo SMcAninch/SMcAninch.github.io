@@ -92,6 +92,19 @@ body{
 	background: -webkit-radial-gradient(circle,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 	background: radial-gradient(circle,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 }
+#side{
+    float: left;
+    margin-top: 2rem;
+    background: -moz-radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
+    background: -ms-radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
+	background: -webkit-radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
+	background: radial-gradient(left,hsla(197, 0%, 1%, .97),hsla(280, 95%, 19%, 0.97));
+    
+    
+    
+    
+    
+}
 #links{
     color: white;
     float: left;
@@ -100,6 +113,7 @@ body{
     margin-bottom: 5rem;
     width: 3rem;
     border-radius: 10%;
+    border-color: black;
     background: -moz-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
     background: -ms-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 	background: -webkit-linear-gradient(left top,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
