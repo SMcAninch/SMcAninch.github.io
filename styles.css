@@ -93,8 +93,7 @@ body{
 	background: radial-gradient(circle,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
 }
 #side{
-    float: left; 
-    width: 4rem;
+    float: left;
     left: 10rem;
     bottom: 2rem;
     top: 2rem;
