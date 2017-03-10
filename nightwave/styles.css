@@ -63,7 +63,7 @@
     background: -ms-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
 	background: -webkit-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
 	background: linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
-    position: fixed;
+    position: relative;
     height: 15rem;
     top: 5rem;
     left: 0;
@@ -88,7 +88,7 @@
 }
 body{
     text-align: center;
-    background: Aqua;
+    background: teal;
 }
 
 #links{
