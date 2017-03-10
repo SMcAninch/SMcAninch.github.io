@@ -87,10 +87,9 @@
     float: right;
 }
 body{
-    background: -moz-radial-gradient(circle,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
-    background: -ms-radial-gradient(circle,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
-	background: -webkit-radial-gradient(circle,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
-	background: radial-gradient(circle,hsla(280, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    text-align: center;
+    color: gray;
+    background: navy;
 }
 
 #links{
