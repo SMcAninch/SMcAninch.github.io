@@ -70,6 +70,7 @@
 }
 body{
     text-align: center;
+    text-indent: inherit;
     color: gray;
     background: blue;
 }
