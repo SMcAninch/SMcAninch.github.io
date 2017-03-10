@@ -59,10 +59,10 @@
     
 }
 #text{
-    background: -moz-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
-    background: -ms-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
-	background: -webkit-linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
-	background: linear-gradient(left top,hsla(197, 0%, 1%, .97),hsla(224, 95%, 26%,.70),hsla(197, 0%, 1%, .97));
+    background: -moz-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
+    background: -ms-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
+	background: -webkit-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
+	background: linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
     position: fixed;
     height: 15rem;
     top: 5rem;
@@ -88,7 +88,7 @@
 }
 body{
     text-align: center;
-    background: navy;
+    background: Aqua;
 }
 
 #links{
