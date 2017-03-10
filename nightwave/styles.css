@@ -43,3 +43,18 @@ body{
 	background: -webkit-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
 	background: linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
 }
+#links{
+    color: white;
+    float: left;
+    position: absolute;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 3rem;
+    border-radius: 10%;
+    border-color: darkred;
+    background: -moz-linear-gradient(left top,hsla(240, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -ms-linear-gradient(left top,hsla(240, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: -webkit-linear-gradient(left top,hsla(240, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+	background: linear-gradient(left top,hsla(240, 95%, 19%, 0.97),hsla(197, 0%, 1%, .97));
+
+}
