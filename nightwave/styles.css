@@ -1,4 +1,21 @@
-
+#bannerTop{
+    position: fixed;
+    height: 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0rem;
+    border-radius: 3%;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+     background: -moz-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
+    background: -ms-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
+	background: -webkit-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
+	background: linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
+}
 #text{
     background: -moz-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
     background: -ms-linear-gradient(left top,hsla(197, 0%, 1%, .30),hsla(224, 95%, 26%,.20),hsla(197, 0%, 1%, .30));
