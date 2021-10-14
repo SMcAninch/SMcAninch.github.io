@@ -1,4 +1,4 @@
- var base = "https://smcaninch.github.io/";
+var base = "https://smcaninch.github.io/";
 var external = "https://play.spotify.com/track/16mkFfAvkSrdKG6wxhYT1i";
 var shuffleBtn = O("shuffleBtn");
 var songSelection = O("songSelection");
@@ -174,3 +174,6 @@ function supportsOgg(){
         return true;
     }
 }
+//http://24ways.org/2010/the-state-of-html5-audio
+//http://www.w3schools.com/tags/av_met_canplaytype.asp
+//http://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_av_met_canplaytype
