@@ -80,7 +80,10 @@
     #font-size: 1rem;
     cursor: pointer;
     color: white;
-    background: rgb(7, 107,163);
+    background: -webkit-linear-gradient(hsla(51, 21%, 62%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -moz-linear-gradient(hsla(51, 21%, 62%, 0.97),hsla(197, 0%, 1%, .97));
+    background: -o-linear-gradient(hsla(51, 21%, 62%, 0.97),hsla(197, 0%, 1%, .97));
+    background: linear-gradient(hsla(51, 21%, 62%, 0.97),hsla(197, 0%, 1%, .97));
     padding: 1%;
     border-radius: 1rem;
     width: 45%;
